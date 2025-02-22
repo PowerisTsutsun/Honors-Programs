@@ -1,33 +1,31 @@
-# 🔍 Advanced Vulnerability Scanner - Your Comprehensive Security Assessment Tool
+💡 How It Works
+Directory Listing Check:
+Sends an HTTP GET request to check if the response contains "Index of /"—an indicator that directory listing is enabled.
 
+SQL Injection Test:
+Appends a SQL payload (e.g., ' OR '1'='1) to the target URL and scans for error messages that might indicate a vulnerability. If a potential issue is detected, the tool provides recommendations such as using parameterized queries or prepared statements.
 
-## 🚀 What's This All About?
+XSS Vulnerability Test:
+Injects a script payload (e.g., <script>alert('xss')</script>) to see if it is reflected unescaped in the response, which would suggest an XSS vulnerability.
 
-Welcome to Advanced Vulnerability Scanner—a modular Python tool designed to help you assess the security posture of your target systems. Whether you're a budding security enthusiast or a professional penetration tester, this tool combines multiple vulnerability tests to give you a detailed view of potential security flaws in your applications and network.
+Port Scanning:
+Uses socket connections to check common ports (e.g., FTP, SSH, SMTP, HTTP, HTTPS) and lists any that are open, giving you insight into potentially exposed services.
 
-> **Disclaimer:** Use this tool only on systems you own or have explicit permission to test. Unauthorized scanning is illegal and unethical.
+Remediation Recommendations:
+For each detected vulnerability, the tool prints out best practices and actionable steps to mitigate the risk.
 
-## ⚙️ Features That Make Us Special
+🤝 Contributing
+We welcome contributions to make this project even better! To contribute:
 
-- 🔍 **Directory Listing Check:**  
-  Quickly identifies if a website exposes its directory structure.
+Fork the repository.
+Create your feature branch.
+Commit your changes.
+Push to the branch.
+Open a Pull Request.
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-- 🛡️ **SQL Injection Testing:**  
-  Uses common SQL payloads to detect potential SQL injection vulnerabilities and provides remediation advice.
-
-- 🚨 **XSS Vulnerability Testing:**  
-  Checks for reflected cross-site scripting (XSS) issues.
-
-- 🌐 **Port Scanning:**  
-  Scans for common open ports to help identify exposed services.
-
-- 💡 **Remediation Recommendations:**  
-  Offers actionable advice to secure vulnerabilities once detected.
-
-## 🛠️ Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/YourGitHubUsername/Advanced-Vulnerability-Scanner.git
-   cd Advanced-Vulnerability-Scanner
+🙏 Acknowledgments
+Built with passion for cybersecurity and a desire to educate.
+Special thanks to all contributors who helped shape this tool.
+Made with ❤️ by poweristsutsun
