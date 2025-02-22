@@ -17,9 +17,8 @@ Create a file named sample.log with some entries like this:
 2025-02-22 10:00:00 192.168.1.1 Failed login attempt
 2025-02-22 10:02:15 192.168.1.2 Unauthorized access detected
 2025-02-22 10:05:30 192.168.1.3 Failed login attempt
+
 Alternatively, create one using the command line:
-
-
 echo "2025-02-22 10:00:00 192.168.1.1 Failed login attempt" > sample.log
 echo "2025-02-22 10:02:15 192.168.1.2 Unauthorized access detected" >> sample.log
 
@@ -38,13 +37,12 @@ Threats detected:
  - 192.168.1.1 - Failed login attempt
  - 192.168.1.2 - Unauthorized access detected
 Visual report saved as 'threat_report.png'.
+
 🔄 Realtime Mode (Monitor Logs as They Update)
 Continuously monitor a log file for new suspicious entries:
-
-
 python main.py --logpath sample.log --mode realtime --alert
-✅ Output Example:
 
+✅ Output Example:
 Running in realtime mode...
 Real-time threat detected: 192.168.1.1 - Failed login attempt
 Alert sent for threat: 192.168.1.1 - Failed login attempt
