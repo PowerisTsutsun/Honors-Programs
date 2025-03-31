@@ -26,7 +26,8 @@ Open a Pull Request.
 ``
 
 
-Vulnerability-Scanner/
+- Vulnerability-Scanner/
+
 ├── main.py                  
 ├── directory_listing.py     
 ├── sql_injection.py        
