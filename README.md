@@ -1,4 +1,4 @@
-
+``
 Vulnerability-Scanner/
 ├── main.py                  # Entry point for running the scanner
 ├── directory_listing.py     # Module for checking directory listing vulnerabilities
@@ -11,7 +11,7 @@ Vulnerability-Scanner/
 ├── README.md                # Project documentation
 ├── LICENSE                  # MIT License file
 └── sample_targets.txt       # Sample file with target URLs for testing (optional)
-
+``
 ## 💡 How It Works
 Directory Listing Check:
 Sends an HTTP GET request to check if the response contains "Index of /"—an indicator that directory listing is enabled.
