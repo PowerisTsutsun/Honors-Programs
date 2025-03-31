@@ -1,17 +1,4 @@
-``
-Vulnerability-Scanner/
-├── main.py                  # Entry point for running the scanner
-├── directory_listing.py     # Module for checking directory listing vulnerabilities
-├── sql_injection.py         # Module for SQL injection testing
-├── xss_scanner.py           # Module for XSS vulnerability testing
-├── port_scanner.py          # Module for scanning open ports
-├── remediation.py           # Module for providing remediation recommendations
-├── utils.py                 # Utility functions (e.g., URL validation)
-├── requirements.txt         # Required Python packages
-├── README.md                # Project documentation
-├── LICENSE                  # MIT License file
-└── sample_targets.txt       # Sample file with target URLs for testing (optional)
-``
+
 ## 💡 How It Works
 Directory Listing Check:
 Sends an HTTP GET request to check if the response contains "Index of /"—an indicator that directory listing is enabled.
@@ -37,6 +24,21 @@ Commit your changes.
 Push to the branch.
 Open a Pull Request.
 ``
+
+
+Vulnerability-Scanner/
+├── main.py                  
+├── directory_listing.py     
+├── sql_injection.py        
+├── xss_scanner.py           
+├── port_scanner.py         
+├── remediation.py           
+├── utils.py                 
+├── requirements.txt         
+├── README.md                                
+└── sample_targets.txt      
+
+
 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
