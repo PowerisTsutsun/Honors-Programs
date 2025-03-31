@@ -78,7 +78,7 @@ Contributions are welcome! Follow these steps:
 - Open a Pull Request.
 
 📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. 
 
 🙏 Acknowledgments
 Built with a passion for cybersecurity and log analysis.
